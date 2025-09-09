@@ -1,8 +1,9 @@
 # ========================
-# Clash-Fallback 故转优化配置
+
+# Clash-Fallback 懒人配置-故转优化配置
 # sev7en的分享油管频道：https://www.youtube.com/@imrockwall/videos
 # sev7en电报讨论群组：https://t.me/Sev7enshare
-# Clash-Fallback 故转优化配置
+
 # ========================
 
 # 机场节点订阅
@@ -477,6 +478,7 @@ rule-providers:
   facebook_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/facebook.mrs" }
   twitter_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/twitter.mrs" }
   private_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.mrs" }
+
 
 
 
