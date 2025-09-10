@@ -588,6 +588,17 @@ proxy-groups:
 rules:
   # 国内网站
   - GEOSITE,cn,DIRECT
+  # 🤖 ChatGPT
+  - GEOSITE,openai,🤖 ChatGPT
+  - GEOSITE,anthropic,🤖 ChatGPT
+  - GEOSITE,xai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,claude.ai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,aistudio.google.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,copilot.microsoft,🤖 ChatGPT
+  - DOMAIN-SUFFIX,midjourney.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,lmarena.ai,🤖 ChatGPT
   # 🎥 Netflix
   - GEOSITE,netflix,🎥 Netflix
   # 🎥 Disney+
@@ -627,14 +638,6 @@ rules:
   # 🎮 游戏
   - GEOSITE,category-games@cn,DIRECT
   - GEOSITE,category-games,🎮 游戏
-  # 🤖 ChatGPT
-  - GEOSITE,openai,🤖 ChatGPT
-  - GEOSITE,anthropic,🤖 ChatGPT
-  - GEOSITE,xai,🤖 ChatGPT
-  - DOMAIN-SUFFIX,perplexity.ai,🤖 ChatGPT
-  - DOMAIN-SUFFIX,claude.ai,🤖 ChatGPT
-  - DOMAIN-SUFFIX,gemini.google.com,🤖 ChatGPT
-  - DOMAIN-SUFFIX,aistudio.google.com,🤖 ChatGPT
   # 🔞 Porn
   - GEOSITE,category-porn,🔞 Porn
   # 📲 TikTok
@@ -657,4 +660,5 @@ rules:
   # 🐟 漏网之鱼
 
   - MATCH,🐟 漏网之鱼
+
 
