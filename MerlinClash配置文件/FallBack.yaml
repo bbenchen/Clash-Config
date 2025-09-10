@@ -4,34 +4,34 @@ proxies:
 proxy-providers:
   iFarcloud:
     type: http
-    url: https://oooooooooooooolt?clash=1&flag=meta  #修改你的机场1订阅地址
+    url: https://oooooooooooooolt?clash=1&flag=meta  #修改你的机场A订阅地址保留&flag=meta结尾
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     override:
-      additional-prefix: "[翻儿Cloud]"
+      additional-prefix: "[机场A]"
   YY:
     type: http
-    url: https://xxxxxxxxxxxxxxxxxxxxxxxxV?clash=1&flag=meta  #修改你的机场2订阅地址
+    url: https://xxxxxxxxxxxxxxxxxxxxxxxxV?clash=1&flag=meta  #修改你的机场B订阅地址保留&flag=meta结尾
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     override:
-      additional-prefix: "[妖月]"
+      additional-prefix: "[机场B]"
   MXCloud:
     type: http
-    url: https://oooooooooooxxxxxu?clash=1&extend=1&flag=meta  #修改你的机场2订阅地址
+    url: https://oooooooooooxxxxxu?clash=1&extend=1&flag=meta  #修改你的机场C订阅地址保留&flag=meta结尾
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     override:
-      additional-prefix: "[猫熊]"       
+      additional-prefix: "[机场C]"       
 
 proxy-groups:
   - name: 🔃 自动选择
@@ -660,5 +660,6 @@ rules:
   # 🐟 漏网之鱼
 
   - MATCH,🐟 漏网之鱼
+
 
 
