@@ -631,6 +631,10 @@ rules:
   - GEOSITE,openai,🤖 ChatGPT
   - GEOSITE,anthropic,🤖 ChatGPT
   - GEOSITE,xai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,claude.ai,🤖 ChatGPT
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 ChatGPT
+  - DOMAIN-SUFFIX,aistudio.google.com,🤖 ChatGPT
   # 🔞 Porn
   - GEOSITE,category-porn,🔞 Porn
   # 📲 TikTok
@@ -653,3 +657,4 @@ rules:
   # 🐟 漏网之鱼
 
   - MATCH,🐟 漏网之鱼
+
