@@ -15,7 +15,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
@@ -45,7 +45,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 💬 OpenAi
@@ -65,7 +65,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 📹 油管视频
@@ -85,7 +85,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 奈飞视频
@@ -105,7 +105,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 📺 巴哈姆特
@@ -138,7 +138,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
       - DIRECT
   - name: 🌏 国内媒体
@@ -167,7 +167,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软Bing
     type: select
@@ -186,7 +186,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
@@ -205,7 +205,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
@@ -224,7 +224,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
@@ -243,7 +243,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
@@ -262,7 +262,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
@@ -306,7 +306,7 @@ proxy-groups:
       - 🇩🇪 德国节点
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🌐 其他地区节点
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     include-all: true
@@ -380,7 +380,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 🌐 其他地区
+  - name: 🌐 其他地区节点
     include-all: true
     filter: ^(?!.*(港|HK|hk|Hong Kong|HongKong|hongkong|深港|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|UnitedStates|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|(?<!尼|-)日|JP|Japan|新加坡|坡|狮城|SG|Singapore|台|新北|彰化|TW|Taiwan|KR|Korea|KOR|首尔|韩|韓|加拿大|Canada|渥太华|温哥华|卡尔加里|英国|Britain|United Kingdom|England|伦敦|法国|France|巴黎|德国|Germany|柏林|法兰克福|荷兰|Netherlands|阿姆斯特丹|土耳其|Turkey|Türkiye|DIRECT|直接连接|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|套餐|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic|GB)).*$
     type: url-test
